@@ -30,7 +30,7 @@ class _MyappState extends State<Myapp> {
             child: AnimatedContainer(
               color: Color.fromARGB(255, random.nextInt(256),
                   random.nextInt(256), random.nextInt(256)),
-              duration: Duration(seconds: 0.5),
+              duration: Duration(seconds: 1),
               height: 50.0 + random.nextInt(101),
               width: 50.0 + random.nextInt(101),
             ),
